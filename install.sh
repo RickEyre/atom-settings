@@ -2,7 +2,7 @@
 
 # Copy files config files to ~/.atom
 cp ./*.json ~/.atom
-cp ./*.json ~/.atom
+cp ./*.cson ~/.atom
 cp ./*.less ~/.atom
 cp ./*.coffee ~/.atom
 
