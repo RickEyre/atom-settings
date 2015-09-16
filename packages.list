@@ -19,7 +19,6 @@ linter-pep8@1.0.1
 mustang@0.1.0
 neutron-syntax@0.7.0
 neutron-ui@0.4.0
-relative-numbers@0.2.0
 sepia-syntax@1.0.5
 set-syntax@0.3.0
 seti-syntax@0.4.0
