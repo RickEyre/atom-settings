@@ -1,0 +1,49 @@
+"*":
+  editor:
+    fontFamily: "Inconsolata"
+    showInvisibles: true
+    showIndentGuide: true
+    invisibles: {}
+    fontSize: 17
+    scrollPastEnd: true
+  core:
+    themes: [
+      "atom-material-ui"
+      "atom-light-syntax"
+    ]
+    excludeVcsIgnoredPaths: false
+    followSymlinks: false
+  "release-notes":
+    viewedVersion: "0.94.0"
+  welcome:
+    showOnStartup: false
+  "highlight-column":
+    opacity: 0.15
+    enableHighlight: false
+  "tree-view":
+    showOnRightSide: true
+    hideVcsIgnoredFiles: true
+  linter:
+    lintDebug: true
+    showErrorInline: true
+    statusBar: "Show all errors"
+    showInfoMessages: true
+  "autoclose-html": {}
+  "autocomplete-plus":
+    confirmCompletion: "tab and enter"
+  "linter-eslint": {}
+  "linter-js-yaml": {}
+  "fuzzy-finder":
+    ignoredNames: [
+      ".git"
+      "bower_components"
+      "build"
+      "coverage"
+      "docs"
+      "node_modules"
+    ]
+  "atom-material-ui":
+    accentColor: "Cyan"
+    compactTreeView: true
+    depth: true
+    disableAnimations: true

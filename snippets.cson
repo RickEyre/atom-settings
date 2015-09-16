@@ -1,0 +1,33 @@
+# Your snippets
+#
+# Atom snippets allow you to enter a simple prefix in the editor and hit tab to
+# expand the prefix into a larger code block with templated values.
+#
+# You can create a new snippet in this file by typing "snip" and then hitting
+# tab.
+
+'.source.js':
+  'expect':
+    'prefix': 'expect'
+    'body': 'expect($1).to.$2;'
+  'it':
+    'prefix': 'it'
+    'body': 'it($1, function($2) {\n\t$3\n});'
+  'before':
+    'prefix': 'before'
+    'body': 'beforeEach(function() {\n\t$1\n});'
+  'after':
+    'prefix': 'after'
+    'body': 'afterEach(function() {\n\t$1\n});'
+  'describe':
+    'prefix': 'describe'
+    'body': 'describe($1, function() {\n\t$2\n});'
+  'log':
+    'prefix': 'cl'
+    'body': 'console.log($1);'
+  'alert':
+    'prefix': 'alert'
+    'body': 'window.alert($1);'
+  'require':
+    'prefix': 'req'
+    'body': 'var $1 = require(\'$2\');'
