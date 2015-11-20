@@ -4,11 +4,11 @@
     showInvisibles: true
     showIndentGuide: true
     invisibles: {}
-    fontSize: 17
     scrollPastEnd: true
+    fontSize: 15
   core:
     themes: [
-      "atom-material-ui"
+      "atom-light-ui"
       "atom-light-syntax"
     ]
     excludeVcsIgnoredPaths: false
@@ -22,7 +22,6 @@
     enableHighlight: false
   "tree-view":
     showOnRightSide: true
-    hideVcsIgnoredFiles: true
   linter:
     lintDebug: true
     showErrorInline: true
