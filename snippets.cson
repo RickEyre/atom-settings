@@ -31,3 +31,30 @@
   'require':
     'prefix': 'req'
     'body': 'var $1 = require(\'$2\');'
+  'import default':
+    'prefix': 'impd'
+    'body': 'import $1 from \'$2\';'
+  'import particular':
+    'prefix': 'impp'
+    'body': 'import { $1 } from \'$2\';'
+  'export':
+    'prefix': 'exp'
+    'body': 'export $1;'
+  'export default':
+    'prefix': 'expd'
+    'body': 'export default $1;'
+  'function':
+    'prefix': 'func'
+    'body': 'function $1($2) {$3};'
+  'arrow function':
+    'prefix': 'arrfunc'
+    'body': '($1) => {$2}'
+  'let':
+    'prefix': 'let'
+    'body': 'let $1 = $2;'
+  'var':
+    'prefix': 'var'
+    'body': 'var $1 = $2;';
+  'const':
+    'prefix': 'const'
+    'body': 'const $1 = $2;';
