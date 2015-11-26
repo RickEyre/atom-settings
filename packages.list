@@ -6,7 +6,6 @@ chester-atom-syntax@0.1.1
 cucumber@0.5.0
 editorconfig@1.2.2
 file-icons@1.6.12
-gruvbox@1.0.5
 highlight-line@0.11.0
 highlight-selected@0.11.1
 language-jade@0.6.2
@@ -15,18 +14,14 @@ linter@1.11.2
 linter-eslint@5.2.4
 linter-js-yaml@1.2.4
 linter-pep8@1.0.1
-mustang@0.1.0
 neutron-syntax@0.7.0
 neutron-ui@0.4.0
 relative-numbers@0.2.4
-sepia-syntax@1.0.5
 set-syntax@0.3.0
 seti-syntax@0.4.1
-subzero-syntax-theme@0.3.0
 tabs-to-spaces@1.0.1
 trailing-spaces@0.3.2
 tron-legacy@0.5.0
 tron-theme@0.3.2
 vim-mode@0.63.0
-visual-studio-dark-syntax@0.1.0
 

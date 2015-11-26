@@ -8,8 +8,8 @@
     fontSize: 15
   core:
     themes: [
-      "atom-light-ui"
-      "atom-light-syntax"
+      "atom-material-ui"
+      "neutron-syntax"
     ]
     excludeVcsIgnoredPaths: false
     followSymlinks: false
